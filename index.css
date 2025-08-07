@@ -16,17 +16,12 @@ nav{
    justify-content: space-between;
   
 }
-.btn{
-  background-color: rgb(5, 5, 129);
-color: white;
-border-radius: 10px;
-padding: 10px 35px;
-}
+
 
 .b-img{
-   background-image: url('../rana/Hero-bg.png');
+  background-image:url(../image/Hero-bg.png);
    width: 100%;
-   height:100%;
+   
    }
 
 
@@ -43,12 +38,13 @@ background-color: rgb(5, 5, 129);
 color: white;
 border-radius: 10px;
 padding: 10px 35px;
+margin:0;
 }
 .p1{
 color: rgb(129, 133, 136);
 }
  .hero-section{
-display: flex;
+   display: flex;
 max-width: 1200px;
 margin:0px auto;
 justify-content: space-between;
@@ -89,4 +85,132 @@ border-radius: 15px;
 .section-title-2{
    text-align: center;
    color: rgb(154, 158, 161);
+}
+.hero-title{
+   text-align: center;
+   font-size: 2em;
+   font-weight: 600;
+}
+
+.history-main-wrapper{
+background-color:rgb(153, 179, 235);
+   width:550px;
+   padding:50px 142px;
+   margin: 50px  auto;
+
+}
+
+
+
+
+.history-wrapper{
+   display: flex;
+   justify-content: space-between;
+}
+
+.history-number{
+   color: rgb(4, 4, 155);
+   font-size: 60px;
+   font-weight:bold;
+   margin: 0;
+}
+.history-title{
+   font-size: 14px;
+   color: black;
+   opacity: 50%;
+
+}
+.star1{
+   border-radius: 5px;
+   box-shadow: rgb(241, 247, 247);
+   background-color: azure;
+}
+.star2{
+   text-align: center;
+   font-size: 2em;
+}
+.star3{
+   text-align: justify;
+   justify-content: space-between;
+}
+.star4{
+   font-size: 1em;
+}
+.sta{
+   display: flex;
+}
+.star6{
+   color:rgb(78, 78, 78);
+}
+.star7{
+   color: rgb(42, 42, 43);
+}
+.m{
+   display: flex;
+}
+.a{
+   text-align: center;
+   font-size: 2em;
+}
+.b{
+   color: rgb(39, 39, 39);
+   text-align: center;
+   width: 318px;
+   height: 44px;
+}
+.c{
+   background-color: blue;
+   color: azure;
+  width: 195px;
+  height: 48px;
+  border-radius:10px;
+}
+.d{
+   width: 840px;
+   height: 364px;
+   border-radius:30px;
+}
+.munna{
+   text-align: center;
+  background-color: rgb(223, 234, 243);
+  }
+.mu{
+   display: flex;
+   align-content: space-between;
+   background-color: rgb(188, 219, 245);
+}
+.rana{
+   font-size: 3em;
+   width: 528px;
+   height: 232px;
+}
+ .rana3{
+   text-decoration: none;
+   display: flex;
+}
+.rana1{
+   color: blue;
+   font-size: 3em;
+}
+.rana2{
+   color: rgb(55, 56, 56);
+}
+.footer-column{
+   max-width: 497px;
+   height: 167px;
+  margin-left: auto;
+}
+.section-title{
+    font-size: 35px;
+   font-weight: bold;
+   color: black;
+}
+.btn-primary{
+   background-color: rgb(68, 68, 247);
+      font-weight: 700;
+   font-size: 20px;
+   color: white;
+   padding: 18px 35px;
+   border-radius: 5px;
+   border: none;
 }
